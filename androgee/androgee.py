@@ -55,6 +55,13 @@ async def source(ctx):
     )
     await ctx.send(message)
 
+#gordo is here, commenting out to prevent breaking shit
+#async def whitelistMC(user,uuid):
+    #if user in list:#put file here
+        #await member.send('This user is already whitelisted!')
+    #else:
+        #fucked if I know json shit :/
+    
 
 def start():
     bot.add_cog(BadWords(bot))
